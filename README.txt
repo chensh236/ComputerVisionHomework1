@@ -1,1 +1,1 @@
-admin
+This is the first homework in Computer Vision lesson.
