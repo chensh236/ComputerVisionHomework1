@@ -25,7 +25,7 @@ void test_cimg(){
     SrcImg.display();
     int x = 0;
     int y = 0;
-    cimg_forXY(SrcImg, <#x#>, <#y#>)
+    cimg_forXY(SrcImg, x, y)
     {
         if(SrcImg(x, y, 0) == 102 && SrcImg(x, y, 1) == 102 && SrcImg(x, y, 2) == 102)
             TempImg(x, y) = 255;
